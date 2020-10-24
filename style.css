@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+}
+
+
+/* -----------------Nav bar ----------*/
+.name {
+    font-size: 25px;
+    padding: 1.5em 1.5em 1.5em;
+    background-color: red;
+    color: white;
+    font-family: cursive;
+    padding-right: 7%;
+    text-align: center;
+   
+    
+}
+
+/* -----------------Image(1st box) ----------*/
+
+img{
+    padding-top: 3.0em;
+    position: relative;
+    left: 25%;
+}
+
+/* ------------------2nd box----------*/
+
+.write{
+    float: none;
+    position: absolute;
+    top: 21%;
+    left: 53%;
+    width: 16%;
+    height: 49.5%;
+    color: white;
+    padding: 1.5em 1.5em 1.5em;
+    background-color: red;
+   
+
+}
+
+/* -----------------Footer----------*/
+
+
+.footer {
+    background-color: blue;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 2px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  h3{
+      color: white;
+  }
+
+.link1{
+    position: relative;
+    bottom: -1vw;
+    left: 15vw;
+    color: aqua;
+    font-size: 25px;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.link2{
+    position: relative;
+    top: 7vw;
+    right: 12vw;
+    color: aqua;
+    font-size: 25px;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.link3{
+    position: relative;
+    top: 1vw;
+    left: 12vw;
+    color: aqua;
+    font-size: 25px;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
